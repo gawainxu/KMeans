@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jxu/coding/KMeans/main.cpp
+iostream
+-
+Eigen/Core
+-
+opencv/highgui.h
+-
+opencv2/opencv.hpp
+-
+string
+-
+sstream
+-
+fstream
+-
+time.h
+-
+stdlib.h
+-
+cmath
+-
+
